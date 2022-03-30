@@ -1,0 +1,30 @@
+.units {
+    border-radius: 10px;
+    width: 50px;
+    overflow: hidden;
+    height: 25px;
+    font-size: 16px;
+    display: flex;
+}
+
+.units input {
+    display: none;
+}
+
+.units input:checked + label {
+    background-color: rgb(75, 175, 241);
+    opacity: 1;
+}
+
+.units label {
+    font-size: 16px;
+    display: inline-block;
+    width: 50%;
+    height: inherit;
+    opacity: 0.5;
+    background-color: rgb(31, 165, 165);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
